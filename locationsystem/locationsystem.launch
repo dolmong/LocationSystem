@@ -1,0 +1,6 @@
+<launch>
+	<node name="LocationSystem" pkg="locationsystem" type="locationsystem_node" output="screen">
+	</node>
+	<node name ="Capture" pkg="picamcv" type="picamcv_node" output="screen">
+	</node>
+</launch>
