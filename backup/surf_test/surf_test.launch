@@ -1,0 +1,6 @@
+<launch>
+	<node name="Main" pkg="surf_test" type="surf_test_node" output="screen">
+	</node>
+	<!-- <node name="Viewer" pkg="viewer" type="viewer_node" output="screen"> -->
+	<!-- </node> -->
+</launch>
